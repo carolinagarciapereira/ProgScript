@@ -5,7 +5,7 @@ export default function Title({ texto }) {
     return (
         <div className={styles.titleContainer}>
             <h1 className={styles.title}>{texto}</h1>
-            <Image src="/image/hamburguer.png" alt="Ícone" width={60} height={60} />
+            <Image src="@/public/pastel.png" width={60} height={60} />
         </div>
     );
 }
