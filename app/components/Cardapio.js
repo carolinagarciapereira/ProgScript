@@ -14,7 +14,7 @@ export default function Cardapio() {
     ];
 
     return (
-        <div className={styles.menuContainer}>
+        <div className={styles.cardapioContainer}>
             {itens.map((item, index) => (
                 <PastelCardapio key={index} nome={item.nome} preco={item.preco} />
             ))}
